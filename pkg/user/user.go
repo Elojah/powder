@@ -15,6 +15,7 @@ type Filter struct {
 // App application layer for U object.
 type App interface {
 	Store
+	StoreName
 }
 
 // Store storage layer for U object.
@@ -23,4 +24,10 @@ type Store interface {
 	Fetch(context.Context, Filter) (U, error)
 	FetchMany(context.Context, Filter) (map[string]U, error)
 	Remove(context.Context, Filter) error
+}
+
+// Store storage layer for user name index.
+type StoreName interface {
+	UpsertName(context.Context, string) error
+	FetchName(context.Context, string) (bool, error)
 }

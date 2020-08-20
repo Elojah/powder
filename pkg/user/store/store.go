@@ -6,6 +6,7 @@ import (
 )
 
 var _ user.Store = (*Store)(nil)
+var _ user.StoreName = (*Store)(nil)
 
 // Store implements user store.
 type Store struct {

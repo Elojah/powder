@@ -41,7 +41,8 @@ func run(prog string, filename string) {
 	userStore := userstore.NewStore(rd)
 
 	userApp := &userapp.App{
-		Store: userStore,
+		Store:     userStore,
+		StoreName: userStore,
 	}
 
 	// handler (https server)

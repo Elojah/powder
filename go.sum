@@ -11,7 +11,6 @@ github.com/elojah/redis v0.0.0-20190313141158-8ee7ee230476/go.mod h1:e/M5adweDC2
 github.com/elojah/services v0.0.0-20180906131424-7b238f138836/go.mod h1:8fqqW2L34+kQ7mR6Xzczw170jITRbPTrIw2itp9xFFM=
 github.com/elojah/services v0.0.0-20190313141140-599efb6ce8c5 h1:pfGQRvX4MOPf6ubQaxHNDrzD/IzMOTVMTOFP0TkoA3U=
 github.com/elojah/services v0.0.0-20190313141140-599efb6ce8c5/go.mod h1:+//C2S5XDJ64QECl56nOEtU5FZ2HZjqEuMFryhQijFw=
-github.com/elojah/wallet v0.0.0 h1:+6RkGEj1pYTHVlWeIBZADrD/ykRh3G56faCWhKHlWOA=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
 github.com/fsnotify/fsnotify v1.4.7 h1:IXs+QLmnXW2CcXuY+8Mzv/fWEsPGWxqefPtCP5CnV9I=
