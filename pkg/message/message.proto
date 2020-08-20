@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package message;
+
+option (gogoproto.testgen_all)  = true;
+option (gogoproto.benchgen_all) = true;
+option (gogoproto.populate_all) = true;
+
+import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+
+message M {
+	bytes ID                       = 1 [(gogoproto.customtype)  = "github.com/elojah/powder/pkg/ulid.ID", (gogoproto.nullable) = false];
+
+    bytes UserID                   = 2 [(gogoproto.customtype)  = "github.com/elojah/powder/pkg/ulid.ID", (gogoproto.nullable) = false];
+    bytes RoomID                   = 3 [(gogoproto.customtype)  = "github.com/elojah/powder/pkg/ulid.ID", (gogoproto.nullable) = false];
+    int64 Timestamp                = 4;
+
+	string Content                 = 5;
+}

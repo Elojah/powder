@@ -1,0 +1,18 @@
+{
+	"api": {
+		"address": "localhost:8080",
+		"cert": "config/server.crt",
+		"key": "config/server.key",
+		"api_key": "9ce7a451-3221-49a5-9bf1-cfabdaac38db"
+	},
+	"redis": {
+		"addr": "0.0.0.0:6379",
+		"password": "secret",
+		"db": 0
+	},
+	"redis-lru": {
+		"addr": "0.0.0.0:6379",
+		"password": "secret",
+		"db": 0
+	}
+}
