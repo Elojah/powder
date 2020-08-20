@@ -37,7 +37,6 @@ proto: ## Generate .proto files
 	$(info $(M) running protobuf…) @
 	$Q cd pkg/user && protoc -I=. -I=$(GOPATH)/src --gogoslick_out=. user.proto
 	$Q cd pkg/message && protoc -I=. -I=$(GOPATH)/src --gogoslick_out=. message.proto
-	$Q cd pkg/message/dto && protoc -I=. -I=$(GOPATH)/src --gogoslick_out=. message.proto
 
 # Vendoring
 .PHONY: vendor

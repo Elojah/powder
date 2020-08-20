@@ -24,7 +24,7 @@ func (h *handler) Dial(c Config) error {
 
 	mux := http.NewServeMux()
 
-	mux.HandleFunc("/login", h.Login)
+	mux.HandleFunc("/connect", h.connect)
 	// mux.HandleFunc("/logout", h.Logout)
 	// mux.HandleFunc("/room/create", h.CreateRoom)
 	// mux.HandleFunc("/rooms", h.FetchRooms)
